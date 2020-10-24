@@ -1,0 +1,15 @@
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\DataPastesCatalina.deps.json
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\DataPastesCatalina.runtimeconfig.json
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\DataPastesCatalina.runtimeconfig.dev.json
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\DataPastesCatalina.dll
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\DataPastesCatalina.pdb
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\EntityPastesCatalina.dll
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\bin\Debug\netcoreapp2.1\EntityPastesCatalina.pdb
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.csprojAssemblyReference.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.AssemblyInfoInputs.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.AssemblyInfo.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.csproj.CopyComplete
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.dll
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.pdb
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\DataPastesCatalina\obj\Debug\netcoreapp2.1\DataPastesCatalina.genruntimeconfig.cache

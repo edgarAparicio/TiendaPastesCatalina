@@ -1,0 +1,9 @@
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\bin\Debug\netcoreapp2.1\EntityPastesCatalina.deps.json
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\bin\Debug\netcoreapp2.1\EntityPastesCatalina.dll
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\bin\Debug\netcoreapp2.1\EntityPastesCatalina.pdb
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.AssemblyInfoInputs.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.AssemblyInfo.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.dll
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.pdb
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\EntityPastesCatalina\obj\Debug\netcoreapp2.1\EntityPastesCatalina.csprojAssemblyReference.cache

@@ -1,0 +1,21 @@
+﻿@model EdgarAparicio.PastesCatalina.Business.Entity.Paste
+
+@{
+    ViewData["Title"] = "Detalle Paste";
+}
+
+<h2>@Model.Nombre</h2>
+<div>
+    Id: @Model.Id
+</div>
+<div>
+    Descripcion: @Model.Descripcion
+</div>
+<div>
+    Tipo de Sabor: @Model.TipoSabor
+</div>
+@*<a asp-controller="Home" asp-action="Index" class="btn btn-primary">Lista Pastes</a>*@
+
+<div>
+    <a asp-action="Index">Volver a la Lista de Pastes</a>
+</div>

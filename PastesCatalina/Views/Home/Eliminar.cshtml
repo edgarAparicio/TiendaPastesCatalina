@@ -1,0 +1,31 @@
+﻿@model EdgarAparicio.PastesCatalina.Business.Entity.Paste
+
+
+@{
+    ViewData["Title"] = "Eliminar Paste";
+}
+
+<h2>@Model.Nombre</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        Id : @Model.Id
+    </div>
+    <div>
+        Descripcion : @Model.Descripcion
+    </div>
+    <div>
+        Tipo de Sabor : @Model.TipoSabor
+    </div>
+    <div class="alert-danger">
+        Esta seguro que deseas eliminar este Paste @Model.Nombre
+    </div>
+    <br />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Cancelar</a>
+    @*<div>
+        <a asp-action="Index">Volver a la Lista de Pastes</a>
+    </div>*@
+</form>
+
