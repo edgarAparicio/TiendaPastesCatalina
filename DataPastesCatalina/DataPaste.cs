@@ -54,6 +54,8 @@ namespace EdgarAparicio.PastesCatalina.Data
         public IEnumerable<Paste> ObtenerListaPastes()
         {
             return from paste in db.Paste
+                   //join tipoSabor in db.TipoSabor
+                   //on paste.IdTipoSabor equals tipoSabor.IdTipoSabor
                    orderby paste.Nombre
                    select paste;
         }

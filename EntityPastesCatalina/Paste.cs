@@ -9,6 +9,8 @@ namespace EdgarAparicio.PastesCatalina.Business.Entity
     {
         public int Id { get; set; }
 
+        //public int IdTipoSabor { get; set; }
+
         [Required]
         [StringLength(80)]
         public string Nombre { get; set; }

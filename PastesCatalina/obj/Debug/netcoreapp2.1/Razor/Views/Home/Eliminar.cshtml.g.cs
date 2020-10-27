@@ -70,12 +70,12 @@ Write(Model.Nombre);
             WriteLiteral("</h2>\r\n\r\n");
             EndContext();
             BeginContext(141, 614, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69c10c1e7d8b4d18840982c6254c1a7d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4be68e32732b47d0bb0a3e10b78bd3f1", async() => {
                 BeginContext(161, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(167, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "db06775247a64e409fe9f35f0d0240f1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ae4c584f458e47b9a40cafa7257c49c0", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -140,7 +140,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n    </div>\r\n    <br />\r\n    <button type=\"submit\" class=\"btn btn-danger\">Eliminar</button>\r\n    ");
                 EndContext();
                 BeginContext(576, 80, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90bf47e90feb4d7fad4934915904552e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5361f44792f342d2a267ee96f02aec30", async() => {
                     BeginContext(644, 8, true);
                     WriteLiteral("Cancelar");
                     EndContext();
