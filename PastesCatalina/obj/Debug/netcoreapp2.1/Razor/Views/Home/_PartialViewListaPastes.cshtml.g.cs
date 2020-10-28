@@ -83,7 +83,7 @@ using EdgarAparicio.PastesCatalina.Business.Entity;
             WriteLiteral("</span>\r\n    </div>\r\n    <div class=\"panel-footer\">\r\n\r\n        ");
             EndContext();
             BeginContext(391, 190, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eadc533a1e0b492ca8b205675640d704", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "64a38f9ed8dd449d910362f43b232b52", async() => {
                 BeginContext(510, 67, true);
                 WriteLiteral("\r\n            <i class=\"glyphicon glyphicon-zoom-in\"></i>\r\n        ");
                 EndContext();
@@ -121,7 +121,7 @@ using EdgarAparicio.PastesCatalina.Business.Entity;
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(591, 186, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fc037cf667c4d9d9b27c018cff9d976", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53951af5c95b4367a5e7accc1e33e685", async() => {
                 BeginContext(709, 64, true);
                 WriteLiteral("\r\n            <i class=\"glyphicon glyphicon-edit\"></i>\r\n        ");
                 EndContext();
@@ -159,7 +159,7 @@ using EdgarAparicio.PastesCatalina.Business.Entity;
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(787, 189, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d0b78761e4a4ed0a1db07cf6a60a974", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61dab3c95c274b1d99d8f8102ce2f820", async() => {
                 BeginContext(907, 65, true);
                 WriteLiteral("\r\n            <i class=\"glyphicon glyphicon-trash\"></i>\r\n        ");
                 EndContext();

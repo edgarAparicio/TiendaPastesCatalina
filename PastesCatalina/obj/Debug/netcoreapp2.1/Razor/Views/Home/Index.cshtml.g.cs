@@ -56,7 +56,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<h2>Pastes</h2>\r\n\r\n");
             EndContext();
             BeginContext(129, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e755ef6ac7564082811d6bbdea76284a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a87585e16c2c4bfa9cf20719d2981d1f", async() => {
                 BeginContext(175, 17, true);
                 WriteLiteral("Crear Nuevo Paste");
                 EndContext();
@@ -88,7 +88,7 @@ namespace AspNetCore
             WriteLiteral("    ");
             EndContext();
             BeginContext(253, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1ec2e09622ec4680be959678e4b37c09", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f991a5eb36ac4824bd317ee4f481cbaf", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

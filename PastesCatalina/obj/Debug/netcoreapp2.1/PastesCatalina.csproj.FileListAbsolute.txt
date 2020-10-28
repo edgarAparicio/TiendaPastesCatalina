@@ -49,3 +49,6 @@ C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCa
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AgregarUsuario.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditarUsuario.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UserManagment.cshtml.g.cs
