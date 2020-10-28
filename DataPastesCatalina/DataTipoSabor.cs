@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace EdgarAparicio.PastesCatalina.Data
 {
-    public class DataTipoSabor : ITipoSabor
+    public class DataTipoSabor //: ITipoSabor
     {
         private readonly DbContextPastesCatalina db;
 
@@ -14,12 +14,12 @@ namespace EdgarAparicio.PastesCatalina.Data
         {
             this.db = dbContextPastesCatalina;
         }
-        public IEnumerable<TipoSabor> ObtenerListaTipoSabor()
-        {
-            var ListaTipoSabor = from sabor in db.TipoSabor 
-                                 orderby sabor.Nombre
-                                 select sabor;
-            return ListaTipoSabor;
-        }
+        //public IEnumerable<TipoSabor> ObtenerListaTipoSabor()
+        //{
+        //    var ListaTipoSabor = from sabor in db.TipoSabor 
+        //                         orderby sabor.Nombre
+        //                         select sabor;
+        //    return ListaTipoSabor;
+        //}
     }
 }

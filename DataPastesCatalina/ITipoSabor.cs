@@ -5,8 +5,8 @@ using System.Text;
 
 namespace EdgarAparicio.PastesCatalina.Data
 {
-    public interface ITipoSabor
-    {
-        IEnumerable<TipoSabor> ObtenerListaTipoSabor();
-    }
+    //public interface ITipoSabor
+    //{
+    //    IEnumerable<TipoSabor> ObtenerListaTipoSabor();
+    //}
 }

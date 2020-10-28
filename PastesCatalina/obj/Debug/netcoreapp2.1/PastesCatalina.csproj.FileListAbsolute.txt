@@ -36,5 +36,16 @@ C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCa
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Home\Eliminar.cshtml.g.cs
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Home\Editar.cshtml.g.cs
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Home\Crear.cshtml.g.cs
-C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\PastesCatalina.csproj.CoreCompileInputs.cache
 C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\ComentariosHome\ComentariosEnviados.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\ComentariosHome\Index.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\PastesCatalina.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\edgar\Google Drive\Applications Development\Git\PastesCatalina\PastesCatalina\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

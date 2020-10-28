@@ -1,4 +1,6 @@
 ﻿using EdgarAparicio.PastesCatalina.Business.Entity;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +8,23 @@ using System.Text;
 
 namespace EdgarAparicio.PastesCatalina.Data
 {
-    public class DbContextPastesCatalina : DbContext
+    //Clase Para un DbContext normal 
+    //public class DbContextPastesCatalina : DbContext
+    //{
+    //    public DbContextPastesCatalina(DbContextOptions<DbContextPastesCatalina> options) : base(options)
+    //    {
+
+    //    }
+
+    //    public DbSet<Paste> Paste { get; set; }
+
+    //    public DbSet<Comentarios> Comentarios { get; set; }
+
+
+    //}
+
+    //Clase para involucrar Asp.Net Identity
+    public class DbContextPastesCatalina : IdentityDbContext<IdentityUser>
     {
         public DbContextPastesCatalina(DbContextOptions<DbContextPastesCatalina> options) : base(options)
         {
@@ -15,6 +33,7 @@ namespace EdgarAparicio.PastesCatalina.Data
 
         public DbSet<Paste> Paste { get; set; }
 
-        public DbSet<TipoSabor> TipoSabor { get; set; }
+        public DbSet<Comentarios> Comentarios { get; set; }
     }
+
 }

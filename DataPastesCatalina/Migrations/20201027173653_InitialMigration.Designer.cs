@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EdgarAparicio.PastesCatalina.Data.Migrations
 {
     [DbContext(typeof(DbContextPastesCatalina))]
-    [Migration("20201027040149_MigracionDos")]
-    partial class MigracionDos
+    [Migration("20201027173653_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace EdgarAparicio.PastesCatalina.Data.Migrations
 
             modelBuilder.Entity("EdgarAparicio.PastesCatalina.Business.Entity.Paste", b =>
                 {
-                    b.Property<int>("IdPaste")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -30,40 +30,15 @@ namespace EdgarAparicio.PastesCatalina.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(250);
 
-                    b.Property<int>("IdTipoSabor");
-
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasMaxLength(80);
 
-                    b.HasKey("IdPaste");
+                    b.Property<int>("TipoSabor");
 
-                    b.HasIndex("IdTipoSabor");
+                    b.HasKey("Id");
 
                     b.ToTable("Paste");
-                });
-
-            modelBuilder.Entity("EdgarAparicio.PastesCatalina.Business.Entity.TipoSabor", b =>
-                {
-                    b.Property<int>("IdTipoSabor")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Descripcion");
-
-                    b.Property<string>("Nombre");
-
-                    b.HasKey("IdTipoSabor");
-
-                    b.ToTable("TipoSabor");
-                });
-
-            modelBuilder.Entity("EdgarAparicio.PastesCatalina.Business.Entity.Paste", b =>
-                {
-                    b.HasOne("EdgarAparicio.PastesCatalina.Business.Entity.TipoSabor", "TipoSabor")
-                        .WithMany()
-                        .HasForeignKey("IdTipoSabor")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

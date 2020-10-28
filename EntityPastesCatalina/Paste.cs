@@ -9,14 +9,12 @@ namespace EdgarAparicio.PastesCatalina.Business.Entity
     {
         public int Id { get; set; }
 
-        //public int IdTipoSabor { get; set; }
-
         [Required]
         [StringLength(80)]
         public string Nombre { get; set; }
 
         [Required, StringLength(250)]
         public string Descripcion { get; set; }
-        public virtual TipoSabor TipoSabor { get; set; }
+        public TipoSabor TipoSabor { get; set; }
     }
 }

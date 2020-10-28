@@ -29,7 +29,8 @@ namespace PastesCatalina
             services.AddDbContext<DbContextPastesCatalina>(opciones => opciones.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<IPaste, DataPaste>();
-            services.AddTransient<ITipoSabor, DataTipoSabor>();
+            services.AddTransient<IComentarios, DataComentarios>();
+            //services.AddTransient<ITipoSabor, DataTipoSabor>();
             services.AddMvc();
         }
 
@@ -48,6 +49,7 @@ namespace PastesCatalina
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseMvc
                 (routes =>
             {

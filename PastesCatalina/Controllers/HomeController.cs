@@ -13,18 +13,18 @@ namespace PastesCatalina.Controllers
     {
         private readonly IPaste pastesRepositorio;
       
-        private readonly ITipoSabor tipoSaborRepositorio;
+        
 
         [BindProperty]
         public Paste Paste { get; set; }
         public IEnumerable<SelectListItem> TipoSaborSelectList { get; set; }
 
         
-        public HomeController(IPaste paste, ITipoSabor tipoSabor)
+        public HomeController(IPaste paste)
         {
             this.pastesRepositorio = paste;
            
-            this.tipoSaborRepositorio = tipoSabor;
+            
         }
         public IActionResult Index()
         {
@@ -97,7 +97,7 @@ namespace PastesCatalina.Controllers
 
         public ActionResult Crear()
         {
-            ViewBag.TipoSabor = new SelectList(tipoSaborRepositorio.ObtenerListaTipoSabor(), "Id", "Nombre");
+            //ViewBag.TipoSabor = new SelectList(tipoSaborRepositorio.ObtenerListaTipoSabor(), "Id", "Nombre");
             return View();
         }
         [HttpPost]
@@ -105,7 +105,7 @@ namespace PastesCatalina.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.TipoSabor = new SelectList(tipoSaborRepositorio.ObtenerListaTipoSabor(), "Id", "Nombre");
+                //ViewBag.TipoSabor = new SelectList(tipoSaborRepositorio.ObtenerListaTipoSabor(), "Id", "Nombre");
                 return View();
             }
             pastesRepositorio.CrearPaste(pasteNuevo);
